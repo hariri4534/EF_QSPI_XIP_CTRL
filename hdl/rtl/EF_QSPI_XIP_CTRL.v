@@ -313,7 +313,7 @@ module EF_QSPI_XIP_CTRL #( parameter    NUM_LINES   = 16,
         .done(rst_done),
         .sck(rst_sck), 
         .ce_n(rst_ce_n), 
-        .din(rst_din), 
+        .din(4'b0000), 
         .dout(rst_dout), 
         .douten(rst_douten)  
     );
