@@ -61,7 +61,7 @@ module FLASH_READER_QSPI #(parameter LINE_SIZE   = 16)(
     // for debugging
     wire [7:0] data_0 = data[0];
     wire [7:0] data_1 = data[1];
-    wire [7:0] data_15 = data[15];
+    // wire [7:0] data_15 = data[15];
 
     always @*
         case (state)
